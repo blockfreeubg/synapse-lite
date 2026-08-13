@@ -7,7 +7,7 @@
       <script>
         const params = new URLSearchParams(window.location.search);
         params.set("t", Date.now());
-        const safeUrl = "https://cdn.jsdelivr.net/gh/blockfreeubg/synapse@main/play-260430.html" + "?" + params.toString();
+        const safeUrl = "https://cdn.jsdelivr.net/gh/blockfreeubg/synapse-lite@latest/play-260430.html" + "?" + params.toString();
         let l = `
         \x3Cscript>
         launch();
